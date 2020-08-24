@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+   <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar  navbar-expand-xl " id="bg">
+        <!-- Brand -->
+        <a class="navbar-brand text-light" href="#">BMR</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="square_btn" href="#">LogIn</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">BACD</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#">ABFS</a>
+                </li>
+            </ul>
+        </div>
+        <form class="form-inline" action="/action_page.php">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-success" type="submit">Search</button>
+        </form>
+    </nav>
+    <br>
+    <div class="clear"></div>
+    <div class="row" id="bg">
+
+        <div class="col-sm-2">
+            <a href="http://www.bput.ac.in/home.html">
+                <img src="http://www.bput.ac.in/images/bput-logo.png" border="0" alt="BPUT Logo" title="BPUT" />
+            </a>
+        </div>
+        <div class="col-sm-6">
+            <h2 class="text-light p-4">BMR GROUP OF COMPANY PVT LMT.</h2>
+        </div>
+        <div class="col-md-2">
+            <img src="http://www.bput.ac.in/images/map.jpg" height="110" />
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-xl " id="drplink">
+
+        <ul class="navbar-nav   mx-auto">
+
+            <li class="nav-item dropdown">
+                <a class="nav-link text-dark font-weight-bold " href="#" data-toggle="dropdown">
+                    AboutUs
+                </a>
+                <!-- dropdown-toggle for symbol-->
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link  text-dark font-weight-bold" href="#" id="navbardrop" data-toggle="dropdown">
+                    Academic
+                </a>
+                <!-- dropdown-toggle for symbol-->
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link  text-dark font-weight-bold" href="#" id="navbardrop" data-toggle="dropdown">
+                    Admission
+                </a>
+                <!-- dropdown-toggle for symbol-->
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link  text-dark font-weight-bold" href="#" id="navbardrop" data-toggle="dropdown">
+                    Features
+                </a>
+                <!-- dropdown-toggle for symbol-->
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link  text-dark font-weight-bold" href="#" id="navbardrop" data-toggle="dropdown">
+                    Results
+                </a>
+                <!-- dropdown-toggle for symbol-->
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link  text-dark font-weight-bold" href="#" id="navbardrop" data-toggle="dropdown">
+                    Notices
+                </a>
+                <!-- dropdown-toggle for symbol-->
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link  text-dark font-weight-bold" href="#" id="navbardrop" data-toggle="dropdown">
+                    ContactUs
+                </a>
+                <!-- dropdown-toggle for symbol-->
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Link 1</a>
+                    <a class="dropdown-item" href="#">Link 2</a>
+                    <a class="dropdown-item" href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <div class="row">
+        <div class="col-md-8 p-4 m-4">
+            <div id="demo" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ul class="carousel-indicators">
+                    <li data-target="#demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#demo" data-slide-to="1"></li>
+                    <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+
+                <!-- The slideshow -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="a.jpg" title="Republic Day Celebrations on 26th January, 2020" alt="Los Angeles" width="800" height="300">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="a.jpg" title="Republic Day Celebrations on 26th January, 2020" alt="Chicago" width="800" height="300">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="a.jpg" title="Republic Day Celebrations on 26th January, 2020" alt="New York" width="800" height="300">
+                    </div>
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div>
+            <br>
+            <marquee id="mar" onMouseOver="this.stop();" onMouseOut="this.start();" scrolldelay="100">
+                <!--<ul class="marquee">-->
+                <span style="padding-right:50px;">
+                    <a href="https://drive.google.com/file/d/1xQDsDBhtCT-ZTJRTIZHSp6E3keIga9XR/view?usp=sharing">Revised Notice on Equivalence of B.Tech in Electrical and B.Tech in Electrical & Electronics Engineering</a>
+                    <img src="http://www.bput.ac.in/images/new.gif" border="0" align="absmiddle" alt="New" />
+                </span>
+                <span style="padding-right:50px;">
+                    <a href="https://drive.google.com/file/d/1Zk6LX1dZYOpkA0e1SSk7K6HBfeIk6opY/view?usp=sharing">Up-Loading University Examiners data and appointment of examiners for re-checking of Odd Sem Examination
+                        2019-20 & Even Sem Examination 2019-20</a>
+                    <img src="http://www.bput.ac.in/images/new.gif" border="0" align="absmiddle" alt="New" />
+                </span>
+                <span style="padding-right:50px;">
+                    <a href="https://drive.google.com/file/d/17WXP49jmC3K6Xm2iNrzCMNd5zCuDG5xD/view?usp=sharing">Confirmation of TDS Deductions for the remunerations paid to the University Examiners</a>
+                    <img src="http://www.bput.ac.in/images/new.gif" border="0" align="absmiddle" alt="New" />
+                </span>
+                <span style="padding-right:50px;">
+                    <a href="https://drive.google.com/file/d/1DbkrmZ8G09qmkClPMak0KqxJqMSk8HH4/view?usp=sharing">Notification regarding conduct of viva voce examination of Ph.D students through Video Conferencing</a>
+                    <img src="http://www.bput.ac.in/images/new.gif" border="0" align="absmiddle" alt="New" />
+                </span>
+                <span style="padding-right:50px;">
+                    <a href="https://drive.google.com/open?id=1ySY1V_dHZwgjEPW9DARLAU2Krlgt1lqp">Tender Notice for Printing and Supply of QR Coded Answer Booklet for the Examinations of BPUT</a>
+                    <img src="http://www.bput.ac.in/images/new.gif" border="0" align="absmiddle" alt="New" />
+                </span>
+                <span style="padding-right:50px;">
+                    <a href="https://drive.google.com/open?id=1OLqrxmtNVw6jsNHG4X5q0YE4V8nbOCyU">Tender Document for Supply of Papers for BPUT Tabulation Result Sheet</a>
+                    <img src="http://www.bput.ac.in/images/new.gif" border="0" align="absmiddle" alt="New" />
+                </span>
+                <span style="padding-right:50px;">
+                    <a href="https://drive.google.com/open?id=1fvc92ou9-g9IIpXUTdTSyTCveZt1ngbE">Tender Document for Binding of TR Sheets</a>
+                    <img src="http://www.bput.ac.in/images/new.gif" border="0" align="absmiddle" alt="New" />
+                </span>
+
+            </marquee>
+
+        </div>
+        <div class="col-md-3 m-4" id="bg">
+            <h2 class="text-light">
+                <center>Links...</center>
+            </h2>
+            <ul class="text-light">
+                <li>Link1</li>
+                <li>Link2</li>
+                <li>Link3</li>
+                <li>Link4</li>
+            </ul>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="fleft" style="width: 350px;margin-right: 50px;">
+                <div class="footer_title">BPUT Google Map</div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3692.812351930802!2d84.81938315!3d22.247197399999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a20196df9ce1a29%3A0x6a5856f3c6b90481!2sBiju+Patnaik+University+of+Technology!5e0!3m2!1sen!2sin!4v1432025232429"
+                    width="340" height="120" frameborder="0" style="border:0"></iframe>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="fleft" id="events2" style="width: 240px;">
+                <div class="footer_title">Follow With Us</div>
+                <div class="component">
+                  <a href="https://www.facebook.com/bputofficial"><img src="icons8-facebook-64.png" /></a>
+                  <a href="https://twitter.com/bputofficial"><img src="icons8-twitter-48.png" /></a>
+                  <a href="https://plus.google.com/+BPUTODISHA"><img src="icons8-google-plus-24.png" ></a><br>
+                  <a href="https://www.youtube.com/bputodisha"><img src="icons8-youtube-squared-50.png" /></a>
+                  <a href="https://www.linkedin.com/edu/school?id=199029"><img src="linkedlin.png" /></a>
+                </div>
+          
+              </div>
+        </div>
+        <div class="col-md-4">
+            <div class="fright">
+                <div class="footer_title">Our Contacts</div>
+                <div style="line-height:170%;">
+                    <b>Biju Patnaik University of Technology (BPUT)</b><br />
+                  Chhend Colony, Rourkela, Odisha-769004<br />
+                  Phone : (0661) 2482556, 
+                  Fax : (0661) 2482562,<br />
+                  Email: <a href="#" class="more">students@bput.ac.in</a> (for Students Enquiry), <br />
+                  Email: <a href="#" class="more">bput@bput.ac.in</a> (for Colleges Communication) </div>
+              </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
